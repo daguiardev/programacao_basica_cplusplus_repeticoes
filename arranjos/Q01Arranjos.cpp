@@ -8,7 +8,9 @@ using namespace std;
 int main() {
     // 1) Declaração com tamanho e atribuição posterior (elemento a elemento)
     const int quant_meses = 12;
-    int meses[quant_meses] = {1,2,3,4,5,6,7,8,9,10,11,12}; // exemplo adicional
+    
+    int meses[quant_meses] = {1,2,3,4,5,6,7,8,9,10,11,12};
+    
     string nomes_meses[quant_meses];
 
     int indice = 0;
@@ -26,6 +28,7 @@ int main() {
         indice++;
     }
     
+    //quant_meses = 24; // Erro: não é possível alterar o valor de uma constante
 
 /*
     std::cout << "a: ";
